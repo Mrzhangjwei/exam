@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>jQuery hover特效</title>
+	<link rel="stylesheet" href="./css/jquery.mobile-1.4.5.min.css" media="screen" title="no title">
+	<script src="./js-mobile/jquery-1.12.4.min.js"></script>
+	<script src="./js-mobile/jquery.mobile-1.4.5.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#orderedlist tbody tr").hover(function() {
+				$(this).css("background","red");
+			}, function() {
+				$(this).css("background","white");
+			});
+		});
+	</script>
+		<style>
+			
+		</style>
+</head>
+<body>
+	<table id="orderedlist" width="50%" border="0" cellspacing="0" cellpadding="0">
+		<!--用class="stripe"来标识需要使用该效果的表格-->
+		<thead>
+			<tr>
+				<th>姓名</th>
+				<th>年龄</th>
+				<th>QQ</th>
+				<th>Email</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>张健伟</td>
+				<td>21</td>
+				<td>1111111</td>
+				<td>sadjfksdla</td>
+			</tr>
+			<tr>
+				<td>关羽</td>
+				<td>23</td>
+				<td>2222222</td>
+				<td>dklsjfjklsda</td>
+			</tr>
+			<tr>
+				<td>刘备</td>
+				<td>23</td>
+				<td>333333</td>
+				<td>dsaklasdfas</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

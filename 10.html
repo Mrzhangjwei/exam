@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>今日头条</title>
+  <link rel="stylesheet" href="./css/jquery.mobile-1.4.5.min.css" media="screen" title="no title">
+  <script src="./js-mobile/jquery-1.12.4.min.js"></script>
+  <script src="./js-mobile/jquery.mobile-1.4.5.min.js"></script>
+  <link rel="stylesheet" href="./Font-Awesome-4.6.3/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
+  <style media="screen">
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .top{
+      color:white;
+      float:left;
+      font-size:20px;
+      height:54px;
+      margin-left: 20px;
+      text-align: center;
+      line-height:54px;
+    }
+    .wbk {
+      width: 230px;
+      height: 25px;
+      float: right;
+      margin-right: 25px;
+    }
+    .kk {
+      position: absolute;
+      left: 35%;
+      top: 19px;
+      color: gray;
+    }
+    .sousuo{
+       color:white;
+       float:right;
+       height:40px;
+       line-height:40px;
+       width:40px;
+       font-size: 20px;
+       /*text-align: center;*/
+    }
+    .sousuo1{
+      font-size: 20px;
+      color: black;
+    }
+    .new1{
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      text-align: left;
+      font-size: 20px;
+      float: left;
+      margin-left: 10px;
+    }
+    .con{
+      /*border-top: 1px solid black;*/
+      border-bottom: 1px solid #ddd;
+      position: absolute;
+    }
+
+    .content-top{
+      width: 100%;
+      height: 40px;
+      background: lightgray;
+    }
+    .content-top ul{
+      list-style: none;
+    }
+    .content-top ul li{
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      margin-left: 20px;
+      float: left;
+    }
+    .jj {
+      position: absolute;
+      right: 10px;
+      top: 67px;
+    }
+  </style>
+</head>
+<body>
+  <div data-role="page" id="page1">
+    <div data-role="header" data-position="fixed" style="background:red;color:white">
+      <span class="top">今日头条</span>
+      <div class="wbk">
+        <input type="text" name="name" value="搜你想搜的" style="color:gray;margin-left:23px;">
+        <i class="fa fa-search kk"></i>
+      </div>
+    </div>
+    <div data-role="content" style="padding:0">
+      <div class="content-top">
+        <ul>
+          <li style="color:red;">推荐</li>
+          <li>热点</li>
+          <li>本地</li>
+          <li>视频</li>
+          <li>社会</li>
+          <li>头条</li>
+        </ul>
+        <i class="fa fa-plus jj"></i>
+      </div>
+    </div>
+    <div data-role="footer" data-position="fixed">
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#page1" data-transition="slide"><i class="fa fa-home sousuo1"></i><p>首页</p></a></li>
+          <li><a href="#page2" data-transition="slide"><i class="fa fa-caret-square-o-right t sousuo1"></i><p>视频</p></a></li>
+          <li><a href="#page3" data-transition="slide"><i class="fa fa-heart sousuo1"></i><p>关注</p></a></li>
+          <li><a href="#page4" data-transition="slide"><i class="fa fa-user sousuo1"></i><p>我的</p></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

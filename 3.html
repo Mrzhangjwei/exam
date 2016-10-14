@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/jquery.mobile-1.4.5.min.css" media="screen" title="no title">
+    <script src="./js-mobile/jquery-1.12.4.min.js"></script>
+    <script src="./js-mobile/jquery.mobile-1.4.5.min.js"></script>
+    <style media="screen">
+      
+    </style>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("#xiala div p").hover(function() {
+          $(this).css("background","blue");
+        }, function() {
+          $(this).css("background","white");
+        });
+      });
+    </script>
+    <title>jQuery moblie下拉菜单</title>
+  </head>
+  <body>
+    <div data-role='page'>
+      <div data-role="header"><h1>标题</h1></div>
+      <div data-role="content">
+        <div id="xiala" data-role="collapsible-set">
+          <div data-role="collapsible" data-collapsed="false">
+            <h3>AjaxShake</h3>
+            <p>jQuery</p>
+            <p>Flash</p>
+            <p>Prototype</p>
+            <p>Mootools</p>
+          </div>
+          <div data-role="collapsible">
+            <h3>jsonP Examples</h3>
+            <p>jQuery</p>
+            <p>Flash</p>
+            <p>Prototype</p>
+            <p>Mootools</p>
+          </div>
+          <div data-role="collapsible">
+            <h3>Friend Sites</h3>
+            <p>jQuery</p>
+            <p>Flash</p>
+            <p>Prototype</p>
+            <p>Mootools</p>
+          </div>
+          <div data-role="collapsible">
+            <h3>Others</h3>
+            <p>jQuery</p>
+            <p>Flash</p>
+            <p>Prototype</p>
+            <p>Mootools</p>
+          </div>
+        </div>
+      </div>
+      <div data-role="footer"><h4>底部</h4></div>
+    </div>
+
+  </body>
+  </html>

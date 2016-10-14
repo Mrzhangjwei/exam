@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery UI日期</title>
+    <script type="text/javascript" language="javascript" src="./js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="./jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="./jquery-ui-1.12.1.custom/jquery-ui.min.css" charset="utf-8">
+    <script type="text/javascript">
+      $(function(){
+        $("#time").datepicker({
+          changeYear: true,
+          changeMonth: true,
+          yearRange: "-1:+2",
+          showOtherMonths: true,
+          showWeek: true,
+          weekHeader: "周数"
+        })
+      })
+    </script>
+
+  </head>
+  <body>
+    <div>请您选择日期：<input id="time" type="text"></div>
+  </body>
+</html>

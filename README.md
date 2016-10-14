@@ -1,7 +1,7 @@
 #jquery的考试题解答
 
 * [第一题源代码-jquery](https://github.com/Mrzhangjwei/exam/blob/gh-pages/1-jquery.html)
-[第一题效果-jquery](http://521cjj.top/exam/1-jquery.html)
+&&&&[第一题效果-jquery](http://521cjj.top/exam/1-jquery.html)
 
 * [第一题源代码-jquery UI](https://github.com/Mrzhangjwei/exam/blob/gh-pages/1-jqueryui.html)
 [第一题效果-jquery ui](http://521cjj.top/exam/1-jqueryui.html)
